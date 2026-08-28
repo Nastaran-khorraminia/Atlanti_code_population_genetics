@@ -45,3 +45,17 @@ for marker in marker_names:
             allele_frequencies = allele_counts/ len(alleles)
             print("\n", marker)
             print(allele_frequencies)
+            gmo2_gentotypes = data[["Gmo2", "Gmo2.1"]].dropna()
+            heterozygous = gmo2_gentotypes["Gmo2"] != gmo2_gentotypes["Gmo2.1"]
+            Ho_gmo2 = heterozygous.mean()
+            print("Observed heterozygosity for Gmo2:" , Ho_gmo2)
+            print("Observed heterozygosity by marker:")
+            for marker in marker_names:
+                genotypes = data[[marker , marker + ".1"]].dropna()
+                heterozygous = genotypes[marker] != genotypes[marker + ".1"]
+                Ho = heterozygous.mean()
+                print(marker, ":", round(Ho, 4))
+                alleles = pd.concat([data["Gmo2"], data["Gmo2.1"]]).dropna()
+                frequencies = alleles.value_counts(normalize=True)
+                He_Gmo2 = 1 - (frequencies ** 2).sum()
+                print("Expected heterozygosity for Gmo2:" , round(He_Gmo2, 4))
