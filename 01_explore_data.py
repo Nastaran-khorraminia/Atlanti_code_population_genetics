@@ -59,3 +59,22 @@ for marker in marker_names:
                 frequencies = alleles.value_counts(normalize=True)
                 He_Gmo2 = 1 - (frequencies ** 2).sum()
                 print("Expected heterozygosity for Gmo2:" , round(He_Gmo2, 4))
+                print("Expected heterozygosity by marker:")
+                for marker in marker_names:
+                    alleles = pd.concat([data[marker], data[marker + ".1"]])
+                    frequencies = alleles.value_counts(normalize=True)
+                    He = 1 - (frequencies ** 2).sum()
+                    print(marker, ":" , round(He, 4))
+                    results = []
+                    for marker in marker_names:
+                        genotypes = data[[marker, marker + ".1"]].dropna()
+                        heterozygous = genotypes[marker] != genotypes[marker + ".1"]
+                        Ho = heterozygous.mean()
+                        alleles = pd.concat([data[marker], data[marker + ".1"]]).dropna()
+                        frequencies = alleles.value_counts(normalize=True)
+                        He = 1 - (frequencies ** 2).sum()
+                        results.append([marker, Ho, He])
+                        results_df = pd.DataFrame(results, columns=["Marker", "Ho", "He"])
+                        print(results_df)
+                        results_df["He_minus_Ho"] = results_df["He"]
+                        print(results_df)
