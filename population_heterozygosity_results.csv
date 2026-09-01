@@ -1,0 +1,49 @@
+Location,Marker,Ho,He
+E Skagerrak,Gmo2,1.0,0.7777777777777777
+E Skagerrak,Gmo3,0.6666666666666666,0.4444444444444444
+E Skagerrak,Gmo8,1.0,0.7777777777777777
+E Skagerrak,Gmo19,1.0,0.7777777777777777
+E Skagerrak,Gmo34,0.6666666666666666,0.6666666666666666
+E Skagerrak,Gmo35,0.6666666666666666,0.6111111111111112
+E Skagerrak,Gmo132,1.0,0.8333333333333333
+E Skagerrak,Tch5,1.0,0.8333333333333333
+Kattegat,Gmo2,1.0,0.8611111111111112
+Kattegat,Gmo3,0.16666666666666666,0.1527777777777779
+Kattegat,Gmo8,1.0,0.84
+Kattegat,Gmo19,0.8333333333333334,0.75
+Kattegat,Gmo34,0.6666666666666666,0.6527777777777778
+Kattegat,Gmo35,0.8333333333333334,0.7361111111111112
+Kattegat,Gmo132,1.0,0.875
+Kattegat,Tch5,0.6666666666666666,0.8333333333333334
+North Sea,Gmo2,1.0,0.5
+North Sea,Gmo3,0.0,0.0
+North Sea,Gmo8,1.0,0.5
+North Sea,Gmo19,1.0,0.5
+North Sea,Gmo34,1.0,0.5
+North Sea,Gmo35,1.0,0.5
+North Sea,Gmo132,0.0,0.0
+North Sea,Tch5,1.0,0.5
+Skagerrak,Gmo2,1.0,0.5
+Skagerrak,Gmo3,0.0,0.0
+Skagerrak,Gmo8,1.0,0.5
+Skagerrak,Gmo19,1.0,0.5
+Skagerrak,Gmo34,0.0,0.0
+Skagerrak,Gmo35,1.0,0.5
+Skagerrak,Gmo132,1.0,0.5
+Skagerrak,Tch5,1.0,0.5
+W Skagerrak,Gmo2,1.0,0.75
+W Skagerrak,Gmo3,1.0,0.625
+W Skagerrak,Gmo8,1.0,0.625
+W Skagerrak,Gmo19,0.5,0.375
+W Skagerrak,Gmo34,0.5,0.375
+W Skagerrak,Gmo35,0.0,0.5
+W Skagerrak,Gmo132,1.0,0.75
+W Skagerrak,Tch5,0.5,0.625
+Öresund,Gmo2,0.5,0.375
+Öresund,Gmo3,0.0,0.0
+Öresund,Gmo8,1.0,0.625
+Öresund,Gmo19,1.0,0.75
+Öresund,Gmo34,0.5,0.375
+Öresund,Gmo35,1.0,0.75
+Öresund,Gmo132,1.0,0.625
+Öresund,Tch5,1.0,0.75
