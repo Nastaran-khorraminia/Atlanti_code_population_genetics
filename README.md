@@ -39,12 +39,12 @@ The dataset contains microsatellite genotype using information for Atlantic cod 
 The original dataset was obtained from a published scientific study and is included in this repository fpr reproduciblity.
 
 ## Project Structure
- Data
- 01_explore_dat.py
- 02_population_analysis.py
- 03_visualization.py
- population_heterozygosity_results.csv
- README.md
+ - Data
+ - 01_explore_dat.py
+ - 02_population_analysis.py
+ - 03_visualization.py
+ - population_heterozygosity_results.csv
+ - README.md
 
  ## Future work
  - Calculate additional population genetic statistics.
