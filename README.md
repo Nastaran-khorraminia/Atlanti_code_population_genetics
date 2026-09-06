@@ -91,12 +91,12 @@ This visualization shows the number of different alleles observed for each micro
 The dataset contains microsatellite genotype information for Atlantic cod sampled from multiple geographic locations.
 
 The original genotype dataset was obtained from a published scientific study and is used here as a publicly available dataset for reproducible analysis.
-
 ## Project Structure
 
+```text
 Atlantic_cod_population_genetics/
 │
-├── data/
+├── Data/
 │   └── Raw/
 │       └── Andre+cod+msat+dryad.xlsx
 │
@@ -108,17 +108,20 @@ Atlantic_cod_population_genetics/
 ├── population_heterozygosity_results.csv
 ├── allele_diversity_by_marker.csv
 │
-├── Ho_by_location.png
-├── He_by_location.png
-├── Ho_vs_He_by_location.png
-├── Mean_Ho_by_marker.png
+├── Allele_Diversity_by_marker.png
+├── Average_expected_heterozygosity.png
+├── Average_observed_heterozygosity.png
 ├── Ho_heatmap.png
 ├── Ho_vs_He_scatter.png
-├── Mean_Ho_He_by_location.png
 ├── Mean_Ho_He_by_marker.png
-├── Allele_diversity_by_marker.png
+├── Mean_Ho_by_location.png
+├── marker_heterozygosity.png
+├── observed_vs_expected_heterozygosity.png
 │
+├── .gitattributes
 └── README.md
+
+
 
 ## Future Work
 
