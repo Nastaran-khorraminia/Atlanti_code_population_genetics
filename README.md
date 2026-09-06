@@ -94,7 +94,6 @@ The original genotype dataset was obtained from a published scientific study and
 
 ## Project Structure
 
-```text
 Atlantic_cod_population_genetics/
 │
 ├── data/
@@ -121,19 +120,29 @@ Atlantic_cod_population_genetics/
 │
 └── README.md
 
+## Future Work
 
+- Calculate additional population genetic statistics.
+- Explore genetic differentiation among sampling locations.
+- Extend the analysis with additional population genetic metrics.
+- Develop further visualizations of genetic diversity and population structure.
 
+## Conclusion
 
+This project demonstrates a reproducible workflow for exploring microsatellite genetic diversity in Atlantic cod using a publicly available dataset.
 
- ## Future work
- - Calculate additional population genetic statistics.
- - Explore genetic differentiation among locations.
- - Add futher visualizations of popuulation genetic diversity.
- ## Conclusion
- This project demonstrates a reproducible workflow for exploring microsatellite genetic diversity in Atlantic cod using a publicly available dataet. The analysis examined observed an expected heterozygosity and allele diversity across sampling locations and microsatellite markers. Puthon-based data processing and visualization were used to summerized patterns of genetic diversity variation.
- ## Limitation
- The analysis id intended as eploratory and educational bioinformatics project. The dataset contains uneven sample sizes among sampling locations, including locatiions represented by very few individuals. Therefore, the results should be inerpreted descriptively rather than as definitive evidence of population differentiatin. the analysis uses pulicly available data and is completely independent of confidential Master's thesis data.
- ## Data Source
- The genotype was obtained from Dryad:
- Andre et al. -Population structure in Atlantic cod in eastern North Sea-Skagerrak-Kattegat: early life stage of dispersal and adult migration.
- DOI: 10.5061/dryad.m3913
+The analysis examined observed heterozygosity, expected heterozygosity, and allele diversity across sampling locations and microsatellite markers. Python-based data processing and visualization were used to summarize patterns of genetic variation and develop a reproducible bioinformatics workflow.
+
+## Limitations
+
+This analysis is intended as an exploratory bioinformatics project. The dataset contains uneven sample sizes among sampling locations, including locations represented by relatively few individuals. Therefore, the results should be interpreted descriptively rather than as definitive evidence of population differentiation.
+
+The analysis uses publicly available data and is independent of confidential research datasets.
+
+## Data Source
+
+The genotype dataset was obtained from Dryad:
+
+André et al. — *Population structure in Atlantic cod in the eastern North Sea-Skagerrak-Kattegat: early life stage dispersal and adult migration.*
+
+DOI: 10.5061/dryad.m3913
